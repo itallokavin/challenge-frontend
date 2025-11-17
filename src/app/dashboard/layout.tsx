@@ -1,5 +1,10 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'HealthFlow - Dashboard'
+}
 
 export default async function DashboardLayout({children,
 }: {

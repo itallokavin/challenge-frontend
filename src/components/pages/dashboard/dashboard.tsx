@@ -1,6 +1,6 @@
 'use client'
 import { Navbar } from "../../navbar/Navbar"
-import ExamsTable from "../../examsTable/ExamsTable"
+import ExamsTable from "../../exams/ExamsTable"
 
 export default function Dashboard() {  
     

@@ -1,4 +1,4 @@
-import LoginForm from "../../../app/login/LoginForm"
+import LoginForm from "../../../app/login/form"
 import { IconComponent } from "../../ui/Icons"
 
 export default function LoginPage() {  
@@ -14,9 +14,6 @@ export default function LoginPage() {
                     </h1>
                 </div>
                 <LoginForm />
-                <div>
-                    
-                </div>
             </div>
         </div>
     )
